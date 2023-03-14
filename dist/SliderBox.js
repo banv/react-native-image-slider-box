@@ -7,7 +7,7 @@ import {
   Dimensions,
 } from "react-native";
 
-import Carousel, { Pagination } from "react-native-snap-carousel"; //Thank From distributer(s) of this lib
+import Carousel, { Pagination } from "@cebolenkosi2579/react-native-snap-carousel"; //Thank From distributer(s) of this lib
 import styles from "./SliderBox.style";
 
 // -------------------Props--------------------

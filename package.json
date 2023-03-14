@@ -1,6 +1,6 @@
 {
   "name": "@cebolenkosi2579/react-native-image-slider-box",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "description": "A simple and fully customizable React Native component that implements an Image Slider UI.",
   "main": "index.js",
   "scripts": {},
