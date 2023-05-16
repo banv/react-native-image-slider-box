@@ -1,12 +1,12 @@
 {
-  "name": "@cebolenkosi2579/react-native-image-slider-box",
+  "name": "@ai-t/react-native-image-slider-box",
   "version": "1.0.17",
   "description": "A simple and fully customizable React Native component that implements an Image Slider UI.",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/intellidev1991/react-native-image-slider-box.git"
+    "url": "git+https://github.com/banv/react-native-image-slider-box.git"
   },
   "keywords": [
     "react-native-image-slider-box",
@@ -29,9 +29,9 @@
   "author": "Hamed Taheri",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/intellidev1991/react-native-image-slider-box/issues"
+    "url": "https://github.com/banv/react-native-image-slider-box/issues"
   },
-  "homepage": "https://github.com/intellidev1991/react-native-image-slider-box#readme",
+  "homepage": "https://github.com/banv/react-native-image-slider-box#readme",
   "devDependencies": {
     "metro-react-native-babel-preset": "latest"
   },
