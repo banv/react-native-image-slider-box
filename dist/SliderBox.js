@@ -31,6 +31,7 @@ import styles from "./SliderBox.style";
 // firstItem = 0
 // activeOpacity
 // autoplayInterval = 3000
+// bearerToken
 
 const width = Dimensions.get("window").width;
 
@@ -79,7 +80,17 @@ export class SliderBox extends Component {
       imageLoadingColor = "#E91E63",
       underlayColor = "transparent",
       activeOpacity = 0.85,
+      bearerToken,
     } = this.props;
+
+    let imageSource = item;
+    if (typeof item === "string" ) {
+      imageSource = { uri: item };
+      if (bearerToken) {
+        imageSource.headers = { Authorization: `Bearer ${bearerToken}` };
+      }
+    }
+
     return (
       <View
         style={{
@@ -103,7 +114,7 @@ export class SliderBox extends Component {
               },
               ImageComponentStyle,
             ]}
-            source={typeof item === "string" ? { uri: item } : item}
+            source={imageSource}
             resizeMethod={resizeMethod || "resize"}
             resizeMode={resizeMode || "cover"}
             //onLoad={() => {}}
